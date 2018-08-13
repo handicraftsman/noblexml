@@ -1,0 +1,29 @@
+{
+  "name": "noblexml",
+  "version": "0.1.0",
+  "description": "An XML generator/parser library for XML streams",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/handicraftsman/noblexml.git"
+  },
+  "keywords": [
+    "noblexml",
+    "xml",
+    "generator",
+    "parser",
+    "streams"
+  ],
+  "author": "Nickolay Ilyushin <nickolay02@inbox.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/handicraftsman/noblexml/issues"
+  },
+  "homepage": "https://github.com/handicraftsman/noblexml#readme",
+  "dependencies": {
+    "sax": "^1.2.4"
+  }
+}

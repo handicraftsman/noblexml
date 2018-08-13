@@ -1,0 +1,10 @@
+<?xml version='1.0'?>
+<stream>
+  <foo bar="baz" quux="spam">
+    <hello asdf="test">World</hello>
+  </foo>
+  <hello who="world">
+    <test></test>
+  </hello>
+  <![CDATA[ASdf]]>
+</stream>
