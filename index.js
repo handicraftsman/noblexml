@@ -162,11 +162,11 @@ class XMLObjectGetter {
       }
       if (this.nesting.length == 1) {
         this.stream.push(this.nesting[this.nesting.length-1]);
-        this.nesting.pop()
+        this.nesting.pop();
+        this.onelem();
       } else {
         this.nesting.pop();
       }
-      this.onelem();
     }
     this.parser.onend = () => {
       this.onend();

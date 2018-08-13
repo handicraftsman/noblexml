@@ -1,6 +1,6 @@
 {
   "name": "noblexml",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "An XML generator/parser library for XML streams",
   "main": "index.js",
   "scripts": {
